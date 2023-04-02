@@ -1,17 +1,52 @@
-<html lang="en">
+<html>
 <head>
+    <title>Invencibles</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="typesheet"  href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
-    <h1> v0.0.1</h1>
-    <h2> Version inicial de sitio Web </h2>
+    <div class="container">
+        <!-- HEADER -->
+        <div class="row header">
+            <div class="col-xs-12"> header </div>
 
+            <nav>
+                <ul class="menu">
+                    <li><a href="estadio.html">Estadio</a></li>
+                    <li><a href="equipo.html">Equipo</a></li>
+                </ul>
+            </nav>  
 
+        </div>
 
+        <!-- SECCION 1 MAIN -->
+        <div class="row main">
+            <div class="texto col-md-6"></div>
+            <div class="campeones col-md-6"></div>
+        </div>
+
+        <!-- SECCION 2 FIGURAS -->
+        <div class="row figuras">
+            <div class="goleador col-md-3"> Goleador: Tierry Henry
+                <br>30 goles en 37 partidos
+            </div>
+            <div class="henry col-md-3"><img src="assets/img/foto_henry" width="100%" height="100%"></div>
+            <div class="dt col-md-3"> Director Técnico: Arsène Wenger
+                <br> Llevó al plantel a un título de Liga sin conocer la derrota
+            </div>
+            <div class="wenger col-md-3"><img src="assets/img/foto_wenger.jpg" width="100%" height="100%"></div>
+        </div>
+
+        <!-- FOOTER -->
+
+        <div class="row footer">
+            <div class="col-xs-12"></div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
